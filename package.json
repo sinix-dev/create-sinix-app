@@ -1,0 +1,24 @@
+{
+  "name": "create-sinix-app",
+  "version": "0.1.0",
+  "description": "Create a game for Sinix in seconds",
+  "bin": "lib/cli.js",
+  "files": [ "lib" ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinix-dev/create-sinix-app.git"
+  },
+  "keywords": [
+    "sinix",
+    "game"
+  ],
+  "author": "Sanket Chaudhari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sinix-dev/create-sinix-app/issues"
+  },
+  "homepage": "https://github.com/sinix-dev/create-sinix-app#readme"
+}

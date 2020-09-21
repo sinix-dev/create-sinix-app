@@ -1,20 +1,20 @@
 module.exports = {
   prompts: [
     {
-      type: 'input',
-      name: 'name',
-      message: 'What is the name of this package',
+      type: "input",
+      name: "name",
+      message: "Name your game",
     },
     {
-      type: 'input',
-      name: 'description',
-      message: 'How would you describe this package',
+      type: "input",
+      name: "description",
+      message: "Short description",
     },
   ],
   actions: [
     {
-      type: 'add',
-      files: '**',
+      type: "add",
+      files: "**",
     },
   ],
 }

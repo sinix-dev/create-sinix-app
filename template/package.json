@@ -1,14 +1,13 @@
 {
   "name": "<%= name %>",
   "version": "0.1.0",
-  "description": "A Sinix Game",
+  "description": "<%= description %>",
   "main": "index.js",
   "scripts": {
     "start": "sirv public",
     "dev": "rollup -c -w"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "rollup": "^2.27.0"
   },

@@ -1,9 +1,11 @@
 {
   "name": "create-sinix-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Create a game for Sinix in seconds",
   "bin": "lib/cli.js",
-  "files": [ "lib" ],
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

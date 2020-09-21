@@ -1,5 +1,5 @@
 {
-  "name": "sa-template",
+  "name": "<%= name %>",
   "version": "0.1.0",
   "description": "A Sinix Game",
   "main": "index.js",

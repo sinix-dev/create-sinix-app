@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/sinix-dev/create-sinix-app/issues"
   },
-  "homepage": "https://github.com/sinix-dev/create-sinix-app#readme"
+  "homepage": "https://github.com/sinix-dev/create-sinix-app#readme",
+  "dependencies": {
+    "sao": "^1.7.1"
+  }
 }

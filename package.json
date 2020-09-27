@@ -1,6 +1,6 @@
 {
   "name": "create-sinix-app",
-  "version": "0.1.8",
+  "version": "0.1.10",
   "description": "Create a game for Sinix in seconds",
   "bin": "lib/cli.js",
   "files": [
@@ -25,6 +25,6 @@
   "homepage": "https://github.com/sinix-dev/create-sinix-app#readme",
   "dependencies": {
     "cac": "^6.6.1",
-    "scaffe": "^0.1.1"
+    "scaffe": "^0.1.2"
   }
 }

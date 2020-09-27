@@ -1,11 +1,12 @@
 {
   "name": "<%= name %>",
   "version": "0.1.0",
-  "description": "<%= description %>",
+  "description": "A Sinix App",
   "main": "index.js",
   "scripts": {
     "start": "sirv public",
-    "dev": "rollup -c -w"
+    "dev": "rollup -c -w",
+    "sinix": "sinix"
   },
   "license": "MIT",
   "devDependencies": {

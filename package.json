@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint lib/** template/**"
+    "lint": "eslint --ext .js lib/ template/",
+    "lint:fix": "eslint --ext .js lib/ template/ --fix"
   },
   "repository": {
     "type": "git",

@@ -191,9 +191,10 @@ const ctx = canvas.getContext("2d")
 const game = new Game(ctx, canvas)
 
 const update = () => {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.clearRect(0, 0, canvas.width, canvas.height)
 
-  let mainLoop = window.requestAnimationFrame(update); 
+  // eslint-disable-next-line
+  let mainLoop = window.requestAnimationFrame(update)
 
   game.update()
 }

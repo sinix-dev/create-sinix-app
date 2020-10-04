@@ -1,10 +1,10 @@
-import livereload from "rollup-plugin-livereload";
-import { terser } from "rollup-plugin-terser";
+import livereload from "rollup-plugin-livereload"
+import { terser } from "rollup-plugin-terser"
 
-const production = !process.env.ROLLUP_WATCH;
+const production = !process.env.ROLLUP_WATCH
 
 const serve = () => {
-  let server;
+  let server
 
   const toExit = () => {
     if(server){
@@ -18,13 +18,13 @@ const serve = () => {
         return
       }
 
-			server = require("child_process").spawn("npm", ["run", "start", "--", "--dev"], {
-				stdio: ["ignore", "inherit", "inherit"],
-				shell: true
-			})
+      server = require("child_process").spawn("npm", ["run", "start", "--", "--dev"], {
+        stdio: ["ignore", "inherit", "inherit"],
+        shell: true
+      })
 
-			process.on('SIGTERM', toExit);
-			process.on('exit', toExit);
+      process.on('SIGTERM', toExit)
+      process.on('exit', toExit)
     }
   }
 }

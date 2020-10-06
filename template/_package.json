@@ -8,7 +8,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "snowpack": "^2.11.0"
+    "snowpack": "^2.13.3"
   },
   "dependencies": {
     "sinix": "^0.1.5"

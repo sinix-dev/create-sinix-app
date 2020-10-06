@@ -2,20 +2,15 @@
   "name": "<%= name %>",
   "version": "0.1.0",
   "description": "A Sinix App",
-  "main": "index.js",
   "scripts": {
-    "start": "sirv public",
-    "dev": "rollup -c -w",
-    "sinix": "sinix"
+    "dev": "snowpack dev --open none",
+    "build": "snowpack build && sinix build"
   },
   "license": "MIT",
   "devDependencies": {
-    "rollup": "^2.27.0"
+    "snowpack": "^2.13.3"
   },
   "dependencies": {
-    "rollup-plugin-livereload": "^2.0.0",
-    "rollup-plugin-terser": "^7.0.2",
-    "sirv-cli": "^1.0.6",
     "sinix": "^0.1.5"
   }
 }

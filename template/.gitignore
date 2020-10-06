@@ -13,8 +13,11 @@ lerna-debug.log*
 .yarn/install-state.gz
 .pnp.*
 
-# bundle
-public/bundle
+# snowpack
+.build
+build
+web_modules
+node_modules
 
 # sinix pack
 release

@@ -18,7 +18,7 @@
         "camelcase": "off",
         "no-console": "off",
         "space-before-function-paren": ["error", "never"],
-        "space-before-blocks": ["error", "never"],
+        "space-before-blocks": ["off", "never"],
         "no-undef": "off",
         "semi": ["error", "never"],
         "array-bracket-spacing": [

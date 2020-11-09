@@ -14,11 +14,11 @@
         "sourceType": "module"
     },
     "rules": {
-        "quotes": [
-            "off",
-            "double"
-        ],
-        "camelcase": "warn",
+        "quotes": ["error", "double"],
+        "camelcase": "off",
+        "no-console": "off",
+        "space-before-function-paren": ["error", "never"],
+        "space-before-blocks": ["error", "never"],
         "no-undef": "off",
         "semi": ["error", "never"],
         "array-bracket-spacing": [
